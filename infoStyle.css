@@ -1,0 +1,52 @@
+  legend{
+        font-weight: bold;
+        font-size: 18px;
+        background-color: cornflowerblue
+    }
+    .top{
+        background-color: black;
+    }
+   
+     
+    .first {
+        color: lightgoldenrodyellow;
+        background-color: rgb(60, 60, 60)
+    }
+    
+    .second{
+        background-color:goldenrod;
+        color: black;
+    }
+
+/*  mediaQuery for different screen sizes */
+
+/* tablet screen size  */
+@media screen and (max-width: 800px){
+    form{
+        width: auto;
+    }
+    
+}
+
+/* desktop/laptop size */
+@media screen and (min-width: 1024px){
+    body{
+        background-color: black;
+    }
+    .first {
+        margin-left:2%;
+        margin-top: 10px;
+        float: left;
+        width: 40%;
+    }
+    
+    .second{
+        margin-right:2%;
+        margin-top: 10px;
+        float: right;
+        width: 50%;
+        
+    }
+}
+
+/*   */

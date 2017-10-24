@@ -4,14 +4,14 @@
      <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> </title>
-        <link rel="stylesheet" href=" "> 
+        <link rel="stylesheet" href="infoStyle.css"> 
         <link rel="stylesheet" href="necolasNormalize.css">
     </head>
     <body>
         <!-- Making parental fill out form to gather information from pet owners -->
         <form>
-            <fieldset>
-                <legend>Parent Info:</legend>
+            <fieldset class="first">
+                <legend class="top">Parent Info:</legend>
                 Last Name: <br>
                 <input type="text" name="lastName"><br>
                 First Name: <br>
@@ -35,7 +35,7 @@
                 <input type="tel" name="emergencyNumber"><br> 
             </fieldset>
             <!-- Making field to gather information of pet(s) -->
-            <fieldset>
+            <fieldset class="second">
                 <legend>Pet Info:</legend>
                 Name: <br>
                 <input type="text" name="petName"><br>
@@ -107,7 +107,7 @@
                 Weight: <br>
                 <input type="text" name="weight"><br>
                 Color/Marking:<br>
-                <textarea name="petDescript" rows="4" cols="30"></textarea><br>
+                <input type="text"name="petDescript" ><br>
                 Clinic/Vet Name:<br>
                 <input type="text" name="vetInfo"><br>
                 Phone Number:<br>

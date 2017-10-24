@@ -1,0 +1,37 @@
+
+/*  mediaQuery for different screen sizes */
+
+/* tablet screen size  */
+@media screen and (max-width: 800px){
+    body{
+        margin: auto;
+        padding: auto;
+    }
+    
+}
+
+/* desktop/laptop size */
+@media screen and (min-width: 1024px){
+    h1{
+        text-align: center;
+    }
+    
+    h3, h2{
+        text-indent: 400px;
+    }
+
+    li{
+        text-indent: 430px;
+        list-style-type: none;
+        font-size: 16px;
+    }
+    
+    button{
+        position: relative;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/*   */

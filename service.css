@@ -1,0 +1,23 @@
+
+/*  mediaQuery for different screen sizes */
+
+/* tablet screen size  */
+@media screen and (max-width: 800px){
+    body{
+        margin: auto;
+        padding: auto;
+    }
+    
+}
+
+/* desktop/laptop size */
+@media screen and (min-width: 1024px){
+    body{
+        display:block;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+}
+/*   */
