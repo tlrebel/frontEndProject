@@ -4,20 +4,23 @@
 /* tablet screen size  */
 @media screen and (max-width: 800px){
     body{
-        margin: auto;
-        padding: auto;
+        display:block;
+        margin: 3%;
+        padding:3%;
     }
     
 }
 
 /* desktop/laptop size */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 800px){
     body{
-        display:block;
+        display: block;
         margin: 0 auto;
         padding: 0;
         text-align: center;
     }
-    
+    .note{
+        
+    }
 }
 /*   */
