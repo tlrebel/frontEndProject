@@ -1,84 +1,84 @@
 /* NOTE: The styling of anchor links into buttons was inspired by Chunky 3D Web Buttons which were taken from:  - http://www.premiumpixels.com/freebies/chunky-3d-webbuttons-psd/
 --I have made some changes in the coding that I have selected to style my "buttons". */
 
-    /* all the anchors to turn into buttons in vertical alignment */
-    .first, .second, .third, .fourth, .fifth{
-        -moz-box-shadow: inset 0 0 0 1px #63ad0d;
-        -webkit-box-shadow: inset 0 0 0 1px #63ad0d;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        background: #eee;
-        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eee), to(#e2e2e2));
-        background: -moz-linear-gradient(#eee, #e2e2e2);
-        background: linear-gradient(#eee, #e2e2e2);
-        border: solid 1px #d0d0d0;
-        border-bottom: solid 3px #b2b1b1;
-        border-radius: 8px;
-        box-shadow: inset 0 0 0 1px #f5f5f5;
-        color: #555;
-        display: block;
-        font: bold 22px Arial, Helvetica, Clean, sans-serif;
-        height: 50px;
-        line-height: 50px;
-        margin: 0 20px 20px 15px;
-        padding: 10px 20px;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-shadow: 0 1px 0 #fafafa; 
+/* all the anchors to turn into buttons in vertical alignment */
+.first, .second, .third, .fourth, .fifth{
+    -moz-box-shadow: inset 0 0 0 1px #63ad0d;
+    -webkit-box-shadow: inset 0 0 0 1px #63ad0d;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #eee;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eee), to(#e2e2e2));
+    background: -moz-linear-gradient(#eee, #e2e2e2);
+    background: linear-gradient(#eee, #e2e2e2);
+    border: solid 1px #d0d0d0;
+    border-bottom: solid 3px #b2b1b1;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 1px #f5f5f5;
+    color: #555;
+    display: block;
+    font: bold 22px Arial, Helvetica, Clean, sans-serif;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 20px 20px 15px;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fafafa; 
 }
 
-   /* to give illusions of buttons being pressed and buttons being 3d*/
-    a.first:active::before, a.second:active::before, a.third:active::before, a.fourt:active::before, a.fifth:active::before{ 
-        padding: 1px 0 0; 
-    }
+/* to give illusions of buttons being pressed and buttons being in 3d form*/
+a.first:active::before, a.second:active::before, a.third:active::before, a.fourt:active::before, a.fifth:active::before{ 
+    padding: 1px 0 0; 
+}
     
-    a.first:hover, a.second:hover, a.third:hover, a.fourth:hover, a.fifth:hover {
-        background: #e4e4e4;
-        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#e4e4e4), to(#ededed));
-        background: -moz-linear-gradient(#e4e4e4, #ededed);
-        background: linear-gradient(#e4e4e4, #ededed);
-        border: solid 1px #c2c2c2;
-        border-bottom: solid 3px #b2b1b1;
-        box-shadow: inset 0 0 0 1px #efefef; 
-    }
+a.first:hover, a.second:hover, a.third:hover, a.fourth:hover, a.fifth:hover {
+    background: #e4e4e4;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#e4e4e4), to(#ededed));
+    background: -moz-linear-gradient(#e4e4e4, #ededed);
+    background: linear-gradient(#e4e4e4, #ededed);
+    border: solid 1px #c2c2c2;
+    border-bottom: solid 3px #b2b1b1;
+    box-shadow: inset 0 0 0 1px #efefef; 
+}
     
-    a.first:active, a.second:active, a.third:active, a.fourth:active, a.fifth:active {
-        background: #dfdfdf;
-        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dfdfdf), to(#e3e3e3));
-        background: -moz-linear-gradient(#dfdfdf, #e3e3e3);
-        background: linear-gradient(#dfdfdf, #e3e3e3);
-        border: solid 1px #959595;
-        box-shadow: inset 0 10px 15px 0 #c4c4c4;
-        top:2px;
-    } 
+a.first:active, a.second:active, a.third:active, a.fourth:active, a.fifth:active {
+    background: #dfdfdf;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dfdfdf), to(#e3e3e3));
+    background: -moz-linear-gradient(#dfdfdf, #e3e3e3);
+    background: linear-gradient(#dfdfdf, #e3e3e3);
+    border: solid 1px #959595;
+    box-shadow: inset 0 10px 15px 0 #c4c4c4;
+    top:2px;
+} 
 
-  /* Shadow of the buttons illusion */
-    a.first::before, a.second::before, a.third::before, a.fourth::before, a.fifth::before {
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        -webkit-box-shadow: #959595 0 2px 5px;
-        -moz-box-shadow: #959595 0 2px 5px;
-        border-radius: 3px;
-        box-shadow: #959595 0 2px 5px;
-        content: "";
-        display: block;
-        height: 100%;
-        left: 0;
-        padding: 2px 0 0;
-        position: absolute;
-        top: 0;
-        width: 100%; 
-    }
+/* Shadow of the buttons illusion */
+a.first::before, a.second::before, a.third::before, a.fourth::before, a.fifth::before {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-box-shadow: #959595 0 2px 5px;
+    -moz-box-shadow: #959595 0 2px 5px;
+    border-radius: 3px;
+    box-shadow: #959595 0 2px 5px;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    padding: 2px 0 0;
+    position: absolute;
+    top: 0;
+    width: 100%; 
+}
 
-h1{ /*need to change font style and size but how??? */
+h1{ 
     text-align: center;
-    
+    font-size: 56px;
 }
 
 /*  mediaQuery for different screen sizes */
 
-/* I have chosen two break points which is desktop and tablet size. I know there could be several more break points to make this prettier and will in the future. */
+/* I have chosen two break points which is desktop and tablet size. I know there could be several more break points to make this prettier and will do so in the future. */
 
 /* tablet screen size  */
 @media screen and (max-width: 800px){
@@ -102,8 +102,32 @@ h1{ /*need to change font style and size but how??? */
 @media screen and (min-width: 800px){
     h1{
         color: darkblue;
-          
-        
+        margin-top: 0px;
+    }
+    
+    /* Positioning the buttons on the left side*/
+    #buttons{
+        position: absolute;
+        left: 40px;
+        top: 100px;
+        width:18%;
+    }
+    
+    /* Creating the space to display selected href links */
+    #display{
+        margin-left: 330px;
+        margin-right: 30px;
+        padding: 1em;
+        overflow: hidden;
+        border: 1px solid #404040;
+        height: 450px;
+    }
+    
+    /* Styling the displayed link to fit into the content area */
+    object{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
     }
     
     body{
@@ -113,6 +137,6 @@ h1{ /*need to change font style and size but how??? */
     
     /* making the buttons smaller on the desktop */
     a.first, a.second, a.third, a.fourth, a.fifth {
-        width: 20%;
+        width: 100%;
     }
 }

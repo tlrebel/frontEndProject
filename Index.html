@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="styleSheet.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Maggie's Groomer site is for the staff working as pet groomers to make things easier for them.">
+        <link rel="icon" type="image/png" href="ag.ico">
         <link rel="stylesheet" href="necolasNormalize.css">
-        <title>Maggie's Groomers</title>
-  </head>
+        <link rel="stylesheet" href="styleSheet.css"> 
+        <script type="text/javascript" src="showNhide.js"></script>
+        <title>Always Grooming</title>
+    </head>
     <body>
-        <h1>Stinky Dogs!</h1>
+        <h1>ALWAYS GROOMING FOR STAFF</h1>
         
-    <!-- menu buttons -->
-            <a href = "https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York" class="first">Schedule</a>
-            <a href = "duties.html" class="second">Assignments</a>
-            <a href="service.html" class="third">Service</a>
-            <a href = "parentInfo.html" class="fourth">Parents </a>
-            <a href="#" class="fifth">Search</a>
+        <!-- to display selected links in here -->
+        <div id="display"> </div>
         
-    <!-- iframes here -->
-       
-        
+        <!-- buttons for desktop -->
+        <div id="buttons">
+            
+        <!-- menu buttons -->
+        <a href ="#" class="first" onclick="javascript:calender('display')">Schedule</a>  
+            
+        <a href ="#" class="second" onclick="javascript:duties('display', '<object type=\'text/html\' data=\'assignments.html\' ></object>')">Assignments</a>
+            
+        <a href="#" class="third" onclick="javascript:orderList('display', '<object type=\'text/html\' data=\'service.html\'></object>')">Service</a>
+            
+        <a href ="#" class="fourth" onclick="javascript:info('display', '<object type=\'text/html\' data=\'parentInfo.html\'></object>')">Parents</a>
+            
+        <a href ="#" class="fifth" onclick="javascript:hunt()">Search</a>  
+        </div>
     </body>
 </html>
 

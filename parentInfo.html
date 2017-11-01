@@ -10,7 +10,7 @@
     <body>
         <!-- Making parental fill out form to gather information from pet owners -->
         <form>
-            <fieldset class="first">
+            <fieldset id="first">
                 <legend class="top">Parent Info:</legend>
                 Last Name: <br>
                 <input type="text" name="lastName"><br>
@@ -34,11 +34,13 @@
                 Emergency Phone Number:<br>
                 <input type="tel" name="emergencyNumber"><br> 
             </fieldset>
+            
             <!-- Making field to gather information of pet(s) -->
             <fieldset class="second">
                 <legend>Pet Info:</legend>
                 Name: <br>
                 <input type="text" name="petName"><br>
+                
                 <!-- Drop down menu of dog breeds -->
                 Breed: <br>
                     <select>
@@ -97,7 +99,7 @@
                         <option value="Yorkie">Yorkie</option>
                         <option value="Mixed">Mixed</option>
                     </select>
-                         Other, please specify: <input type="text" name="other"><br>
+                Other, please specify: <input type="text" name="other"><br>
                 Age: <br>
                 <input type="text" name="age"> Years old<br>
                 Gender: <br>
@@ -115,7 +117,6 @@
                 Additional Notes:<br>
                 <textarea name="extraNote" rows="7" cols="30"></textarea>
             </fieldset>
-            
         </form>
     </body>
 </html>
