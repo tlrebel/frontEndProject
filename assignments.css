@@ -12,10 +12,12 @@
         column-count: 2;
         -webkit-column-count: 2; /* Chrome, Safari, Opera */
         -moz-column-count: 2; /* Firefox */
+        margin-left: 2%;
     }
    
     h1{
        margin-top: 2%;
+       margin-left: 5%;
           
     }
     
@@ -36,6 +38,11 @@
         margin-left: 0px;
         font-size: 16px;
         width: 320px;
+    }
+    
+    button{
+        margin-top: 1%;
+        margin-left: 1%;
     }
 }
 

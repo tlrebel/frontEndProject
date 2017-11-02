@@ -48,7 +48,7 @@ legend{
         display: flex;
     }
     
-    fieldset{
+    #first, #second{
         flex-grow: 1;
     }
     
