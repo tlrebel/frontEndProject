@@ -74,6 +74,7 @@ a.first::before, a.second::before, a.third::before, a.fourth::before, a.fifth::b
 h1{ 
     text-align: center;
     font-size: 56px;
+    font-family: 'Fascinate Inline', cursive;
 }
 
 /*  mediaQuery for different screen sizes */
@@ -82,26 +83,37 @@ h1{
 
 /* tablet screen size  */
 @media screen and (max-width: 800px){
+    /* To hide the buttons created for desktop */
+    #buttons{
+        display: none;
+    }
+    
     body{ 
         background: rgb(60, 60, 60);
-        padding-left: 10%;
     }
     
     h1{
         color: darkgray;
-        
+        margin-left: 1%;
+        font-size: 42px;
     }
     
     /* making the buttons stretch across the screen */
     .first, .second, .third, .fourth, .fifth{
        width: 80%;
+       text-align: center;
     }
 }
 
 /* desktop/laptop size */
 @media screen and (min-width: 800px){
+    /* To hide the buttons created for smaller screens*/
+    #tinyButtons{
+        display: none;
+    }
+    
     h1{
-        color: darkslategray;
+        color: midnightblue;
         margin-top: 0px;
         margin-bottom: 15px;
         background-color: #F4FA58;

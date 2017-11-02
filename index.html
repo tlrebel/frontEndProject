@@ -8,6 +8,7 @@
         <link rel="icon" type="image/png" href="ag.ico">
         <link rel="stylesheet" href="necolasNormalize.css">
         <link rel="stylesheet" href="styleSheet.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
         <script type="text/javascript" src="showNhide.js"></script>
         <title>Always Grooming</title>
     </head>
@@ -20,16 +21,27 @@
         <!-- buttons for desktop -->
         <div id="buttons">
             
-        <!-- menu buttons -->
-        <a href ="#" class="first" onclick="javascript:calender('display', '<iframe src = \'https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York\' ></iframe>')">Schedule</a>  
+        <!-- menu buttons for desktop-->
+        <a href = "#" class="first" onclick="javascript:calender('display', '<iframe src = \'https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York\' ></iframe>')">Schedule</a>  
             
-        <a href ="#" class="second" onclick="javascript:duties('display', '<object type=\'text/html\' data=\'assignments.html\' ></object>')">Assignments</a>
+        <a href = "#" class="second" onclick="javascript:duties('display', '<object type=\'text/html\' data=\'assignments.html\' ></object>')">Assignments</a>
             
-        <a href="#" class="third" onclick="javascript:orderList('display', '<object type=\'text/html\' data=\'service.html\'></object>')">Service</a>
+        <a href = "#" class="third" onclick="javascript:orderList('display', '<object type=\'text/html\' data=\'service.html\'></object>')">Service</a>
             
-        <a href ="#" class="fourth" onclick="javascript:info('display', '<object type=\'text/html\' data=\'parentInfo.html\'></object>')">Parents</a>
+        <a href = "#" class="fourth" onclick="javascript:info('display', '<object type=\'text/html\' data=\'parentInfo.html\'></object>')">Parents</a>
             
-        <a href ="#" class="fifth" onclick="javascript:hunt()">Search</a>  
+        <a href = "#" class="fifth" onclick="javascript:hunt()">Search</a>  
+        </div>
+        
+        <!--buttons for smaller screens -->
+        <div id="tinyButtons">
+        
+        <!-- menu buttons for smaller screens -->
+        <a href = "https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York" class="first">Schedule</a>
+        <a href = "assignments.html" class="second">Assignments</a>
+        <a href = "service.html" class="third">Service</a>
+        <a href = "parentInfo.html" class="fourth">Parents</a>
+        <a href = "#" class="fifth">Search</a>
         </div>
     </body>
 </html>
