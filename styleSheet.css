@@ -88,6 +88,11 @@ h1{
         display: none;
     }
     
+    #tinyButtons{
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+    
     body{ 
         background: rgb(60, 60, 60);
     }
@@ -100,8 +105,7 @@ h1{
     
     /* making the buttons stretch across the screen */
     .first, .second, .third, .fourth, .fifth{
-       width: 80%;
-       text-align: center;
+       margin-right: 4%;
     }
 }
 
@@ -124,7 +128,10 @@ h1{
         position: absolute;
         left: 5px;
         top: 90px;
-        width:12%;
+    }
+    
+     a.first, a.second, a.third, a.fourth, a.fifth {
+        width:80%;
     }
     
     /* Creating the space to display selected href links */
@@ -148,10 +155,5 @@ h1{
          background-color: #404040;
          padding-left: 0%;
          display:100%;
-    }
-    
-    /* making the buttons smaller on the desktop */
-    a.first, a.second, a.third, a.fourth, a.fifth {
-        width: 100%;
     }
 }
