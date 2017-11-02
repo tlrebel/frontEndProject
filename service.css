@@ -13,15 +13,23 @@
 
 /* desktop/laptop size */
 @media screen and (min-width: 800px){
+    h1{
+        text-align: left;
+        margin-left: 2px;
+        margin-bottom: 2%;
+    }
     body{
         display: block;
         margin: 0 auto;
         padding: 0;
-        text-align: center;
+        text-align: left;
         width:100%;
     }
-    .note{
-        
+    
+    #columns{
+        column-count: 2;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
     }
 }
 /*   */

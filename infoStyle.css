@@ -2,10 +2,14 @@ legend{
     font-weight: bold;
     font-size: 18px;
     background-color: goldenrod;
+    padding-left: 2px;
+    margin-left: 3px;
 }
 
 .top{
     background-color: black;
+    height: 28px;
+    width: 98px;
 }
      
 #first {
@@ -13,7 +17,7 @@ legend{
     background-color: rgb(60, 60, 60)
 }
     
-.second{
+#second{
     background-color:goldenrod;
     color: black;
 }
@@ -29,34 +33,36 @@ legend{
         margin-right: 1%;
     }
     
-    legend{
-        width:95px;
-    }
-    
     fieldset{
         margin-top: 2%;
     }
 }
 
 /* desktop/laptop size */
-@media screen and (min-width: 1024px){
-    body{
-        background-color: black;
+@media screen and (min-width: 1024px){    
+    fieldset{
+        -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        margin:0%;
     }
     
+/*
     #first {
         float: left;
         width: 20%;
         display: block;
+        margin-top:2px;
     }
     
-    .second{
+    #second{
         margin-right:2%;
         margin-top: 10px;
-        float: left;
-        width: 50%;
+        float: right;
+        
         
     }
+*/
 }
 
 /*   */
