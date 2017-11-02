@@ -110,7 +110,7 @@ h1{
     /* Positioning the buttons on the left side*/
     #buttons{
         position: absolute;
-        left: 40px;
+        left: 20px;
         top: 90px;
         width:12%;
     }
@@ -135,7 +135,7 @@ h1{
     
     body{
          background-color: #404040;
-         padding-left: 3%;
+         padding-left: 0%;
          display:100%;
     }
     
