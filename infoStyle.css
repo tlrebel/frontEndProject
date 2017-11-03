@@ -43,9 +43,7 @@ legend{
 
 /* desktop/laptop size */
 @media screen and (min-width: 800px){    
-    body{
-        width: 100%;
-    }
+   
     
     form{
         display: flex;
@@ -54,7 +52,6 @@ legend{
     #first, #second{
         flex-grow: 1;
     }
-    
  /* 
     #first {
         width: 30%;
