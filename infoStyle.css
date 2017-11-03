@@ -1,15 +1,18 @@
 legend{
     font-weight: bold;
     font-size: 18px;
-    background-color: goldenrod;
     padding-left: 2px;
     margin-left: 3px;
 }
 
-.top{
+#parent{
     background-color: black;
     height: 28px;
     width: 98px;
+}
+
+#pet{
+    background-color: goldenrod;
 }
      
 #first {
@@ -27,19 +30,19 @@ legend{
 /* tablet screen size  */
 @media screen and (max-width: 800px){
     form{
-        width: auto;
+        width: 90%;
         margin-left: 2%;
         margin-top: 2%;
-        margin-right: 1%;
     }
     
     fieldset{
         margin-top: 2%;
+        width: 95%;
     }
 }
 
 /* desktop/laptop size */
-@media screen and (min-width: 1024px){    
+@media screen and (min-width: 800px){    
     body{
         width: 100%;
     }
@@ -49,7 +52,7 @@ legend{
     }
     
     #first, #second{
-        flex-shrink: 1;
+        flex-grow: 1;
     }
     
  /* 
