@@ -15,17 +15,17 @@
     <body>
         <h1>ALWAYS GROOMING</h1>
         
-        <!-- to display selected links in here -->
+        <!-- to display selected links in here for bigger screens -->
         <div id="display"> </div>
         
         <!-- buttons for desktop -->
         <div id="buttons">
         <a href = "#" class="first" onclick="javascript:calender('display', '<iframe src = \'https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York\' ></iframe>')">Schedule</a>  
             
-        <!-- drop down button for this button -->
+        <!-- drop down menu button for desktop -->
         <div>
-            <a onclick= "javascript:dropDown()" class="second">Assignments</a>
-            <div id="myDropdown" class="dropdownContent">
+            <a onclick= "javascript:big()" class="second">Assignments</a>
+            <div id="bigDropDown" class="dropdownContent">
                 <a href="#" onclick="javascript:morning('display', '<object type=\'text/html\' data=\'morningShifts.html\' ></object>')">Morning Shift</a>
                 <a href="#" onclick="javascript:evening('display', '<object type=\'text/html\' data=\'eveningShifts.html\' ></object>')">Evening Shift</a>
             </div>
@@ -38,16 +38,19 @@
         <a href = "#" class="fifth" onclick="javascript:hunt()">Search</a> 
         </div>
         
-        <!--buttons for smaller screens -->
+        <!-- buttons for smaller screens -->
         <div id="tinyButtons">
         <a href = "https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York" class="first">Schedule</a>
+            
+        <!-- drop down menu button for smaller screens -->
         <div>
-            <a onclick= "javascript:dropDown()" class="second">Assignments</a>
-            <div id="myDropdown" class="dropdownContent">
+            <a onclick= "javascript:small()" class="second">Assignments</a>
+            <div id="smallDropDown" class="dropdownContent">
                 <a href="morningShifts.html">Morning Shifts</a>
                 <a href="eveningShifts.html">Evening Shifts</a>
             </div>
         </div>
+            
         <a href = "service.html" class="third">Service</a>
         <a href = "parentInfo.html" class="fourth">Parents</a>
         <a href = "#" class="fifth">Search</a>
