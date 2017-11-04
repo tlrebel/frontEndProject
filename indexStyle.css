@@ -210,7 +210,7 @@ footer{
     }
     
     /* Styling the displayed link to fit into the content area */
-    object, iframe{
+    iframe{
         height: 100%;
         width: 100%;
         overflow: hidden;
