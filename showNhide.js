@@ -23,7 +23,6 @@ window.onclick = function(event) {
   }
 }
 
-
 function morning(container, load) {
     document.getElementById(container).innerHTML= load;
 }
