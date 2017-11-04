@@ -1,9 +1,16 @@
+/* I created this file to help load the links selected links
+   to be displayed in desired content area and also to make
+   drop down menu work on both smaller screens and bigger screens.
+   created by: Tricia L. Roberts
+   Year: 2017
+   Code of Louisville Project
+ */
+
 function calender(container, load){
     document.getElementById(container).innerHTML= load;
 }
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+// When the button is clicked, the dropdown content toggle between hiding and showing
 function big(){
     document.getElementById("bigDropDown").classList.toggle("show");
 }
@@ -45,4 +52,3 @@ function info(container, load) {
 function hunt() {
     window.alert("this works");
 }
-

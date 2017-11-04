@@ -5,8 +5,8 @@
 .first, .second, .third, .fourth, .fifth{
     -moz-box-shadow: inset 0 0 0 1px #63ad0d;
     -webkit-box-shadow: inset 0 0 0 1px #63ad0d;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
     background: #eee;
     background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eee), to(#e2e2e2));
     background: -moz-linear-gradient(#eee, #e2e2e2);
@@ -28,7 +28,7 @@
     text-shadow: 0 1px 0 #fafafa; 
 }
 
-/* to give illusions of buttons being pressed and buttons being in 3d form*/
+/* to give illusions of buttons being pressed and buttons being in 3d form */
 a.first:active::before, a.second:active::before, a.third:active::before, a.fourt:active::before, a.fifth:active::before{ 
     padding: 1px 0 0; 
 }
@@ -50,7 +50,7 @@ a.first:active, a.second:active, a.third:active, a.fourth:active, a.fifth:active
     background: linear-gradient(#dfdfdf, #e3e3e3);
     border: solid 1px #959595;
     box-shadow: inset 0 10px 15px 0 #c4c4c4;
-    top:2px;
+    top: 2px;
 } 
 
 /* Shadow of the buttons illusion */
@@ -92,11 +92,12 @@ a.first::before, a.second::before, a.third::before, a.fourth::before, a.fifth::b
 /* Change color of dropdown links on hover */
 .dropdownContent a:hover {
     background-color: darkkhaki;
+    border-radius: 8px;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/* Show the dropdown menu */
 .show {
-    display:block;
+    display: block;
 }
 
 h1{ 
@@ -119,11 +120,6 @@ footer{
 
 /* tablet screen size  */
 @media screen and (max-width: 800px){
-    /* To hide the buttons created for desktop */
-    #buttons{
-        display: none;
-    }
-    
     #tinyButtons{
         margin-left: 2%;
         margin-right: 0%;
@@ -139,6 +135,20 @@ footer{
         font-size: 42px;
     }
     
+    /* to position the drop down menu content for smaller screens */
+    #smallDropDown{
+        margin-left: 6%;
+        margin-top: -4%;
+        width: 85%;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    
+    /* To hide the buttons created for desktop */
+    #buttons{
+        display: none;
+    }
+    
     /* making the buttons stretch across the screen */
     .first, .second, .third, .fourth, .fifth{
        margin-right: 4%;
@@ -150,7 +160,7 @@ footer{
    body{
        background-color: #404040;
        padding-left: 0%;
-       display:100%;
+       display: 100%;
     }
     
     h1{
@@ -161,19 +171,28 @@ footer{
     }
     
     a.first, a.second, a.third, a.fourth, a.fifth{
-        width:80%;
+        width: 80%;
     }
     
-    /* To hide the buttons created for smaller screens*/
+    .dropdownContent{
+         min-width: 80%;
+    }
+    
+    /* to move dropdown content */
+    #bigDropDown{
+        margin-left: 9%;
+        margin-top: -9%;
+        width: 95%;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    
+    /* To hide the buttons created for smaller screens */
     #tinyButtons{
         display: none;
     }
     
-     .dropdownContent{
-         min-width: 80%;
-    }
-    
-    /* Positioning the buttons on the left side*/
+    /* Positioning the buttons on the left side */
     #buttons{
         position: absolute;
         left: 5px;
