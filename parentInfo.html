@@ -11,9 +11,10 @@
         <title>Information</title>
     </head>
     <body>
-        <div>
+        <div id="submit">
             <button type="submit">Submit form</button>
         </div>
+        <h1>New Client Form</h1>
         
         <!-- Making parental fill out form to gather information from pet owners -->
         <form>
@@ -31,15 +32,15 @@
                 State:<br>
                 <input type="text" name="address"><br>
                 Zip Code: <br>
-                <input type="text" name="address"><br>
-                <br>
-                Email Address: <br>
-                <input type="email" name="email"><br>
-                <br>
-                Phone Number: <br>
-                <input type="tel" name="number"><br>
-                Emergency Phone Number:<br>
-                <input type="tel" name="number"><br> 
+                <input type="text" name="address"><br><br>
+                <div class="column">
+                    Email Address: <br>
+                    <input type="email" name="email"><br>
+                    Phone Number: <br>
+                    <input type="tel" name="number"><br>
+                    Emergency Phone Number:<br>
+                    <input type="tel" name="number"><br>
+                </div>
             </fieldset>
             
             <!-- Making field to gather information of pet(s) -->
@@ -108,21 +109,23 @@
                     </select><br>
                 Other, please specify: <br><input type="text" name="other"><br>
                 Age: <br>
-                <input type="text" name="age"> <br>
+                <input type="text" name="age"> <br><br>
                 Gender: <br>
                 <input type="checkbox" name="gender" value="Female"> Female<br>
                 <input type="checkbox" name="gender" value="Male"> Male<br>
-                <input type="checkbox" name="gender" value="Fixed"> Neutered/Spayed<br>
+                <input type="checkbox" name="gender" value="Fixed"> Neutered/Spayed<br><br>
                 Weight: <br>
                 <input type="text" name="weight"><br>
                 Color/Marking:<br>
-                <input type="text"name="petDescript" ><br>
-                Clinic/Vet Name:<br>
-                <input type="text" name="vetInfo"><br>
-                Phone Number:<br>
-                <input type="tel" name="vetNumber"><br>
-                Additional Notes:<br>
-                <textarea name="extraNote" rows="7" cols="28"></textarea>
+                <input type="text"name="petDescript"><br>
+               <div class="column">
+                    Clinic/Vet Name:<br>
+                    <input type="text" name="vetInfo"><br>
+                    Phone Number:<br>
+                    <input type="tel" name="vetNumber"><br>
+                    Additional Notes:<br>
+                    <textarea name="extraNote" rows="7" cols="23"></textarea>
+                </div>
             </fieldset>
         </form>
     </body>

@@ -118,8 +118,8 @@ footer{
 
 /* I have chosen two break points which is desktop and tablet size. I know there could be several more break points to make this prettier and will do so in the future. */
 
-/* tablet screen size  */
-@media screen and (max-width: 800px){
+/* tablet screen size in vertical view */
+@media screen and (max-width: 800px) {
     #tinyButtons{
         margin-left: 2%;
         margin-right: 0%;
