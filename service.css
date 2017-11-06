@@ -18,12 +18,12 @@
     }
     
     #print{
-        margin-right: 30%;
+        margin-right: 28%;
     }
     
     #save{
         margin-left: 1%;
-        margin-right: 10%;
+        margin-right: 8%;
     }
     
     h1{
@@ -54,7 +54,7 @@
     
     #columnRight{
         float: right;
-        margin-right: 10%;
+        margin-right: 8%;
         margin-top: -3%;
     }
 }
