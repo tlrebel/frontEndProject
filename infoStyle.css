@@ -1,3 +1,12 @@
+#submit{
+    float: right;
+    margin-right: 2%;
+}
+
+h2{
+    margin-left: 2%;
+}
+
 legend{
     font-weight: bold;
     font-size: 18px;

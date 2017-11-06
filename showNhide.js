@@ -50,5 +50,5 @@ function info(container, load) {
 }
 
 function hunt() {
-    window.alert("this works");
+    alert("This functionality not yet implemented");
 }
