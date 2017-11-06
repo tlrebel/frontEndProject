@@ -14,12 +14,13 @@
         <div id="submit">
             <button type="submit">Submit form</button>
         </div>
-        <h1>New Client Form</h1>
+        <h2>New Client Form</h2>
         
         <!-- Making parental fill out form to gather information from pet owners -->
         <form>
             <fieldset id="first">
                 <legend id="parent"> Parent Info:</legend>
+            <div id="left">
                 Last Name: <br>
                 <input type="text" name="name"><br>
                 First Name: <br>
@@ -33,7 +34,8 @@
                 <input type="text" name="address"><br>
                 Zip Code: <br>
                 <input type="text" name="address"><br><br>
-                <div class="column">
+                </div>
+                <div class="column1">
                     Email Address: <br>
                     <input type="email" name="email"><br>
                     Phone Number: <br>
@@ -41,11 +43,13 @@
                     Emergency Phone Number:<br>
                     <input type="tel" name="number"><br>
                 </div>
-            </fieldset>
             
+            </fieldset>
+                
             <!-- Making field to gather information of pet(s) -->
             <fieldset id="second">
                 <legend id="pet">Pet Info:</legend>
+            <div id="right">
                 Name: <br>
                 <input type="text" name="petName"><br>
                 
@@ -118,7 +122,7 @@
                 <input type="text" name="weight"><br>
                 Color/Marking:<br>
                 <input type="text"name="petDescript"><br>
-               <div class="column">
+               <div class="column2">
                     Clinic/Vet Name:<br>
                     <input type="text" name="vetInfo"><br>
                     Phone Number:<br>
@@ -126,6 +130,7 @@
                     Additional Notes:<br>
                     <textarea name="extraNote" rows="7" cols="23"></textarea>
                 </div>
+            </div>
             </fieldset>
         </form>
     </body>

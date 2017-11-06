@@ -6,7 +6,7 @@ legend{
 }
 
 #parent{
-    background-color: black;
+    background-color: rgb(60, 60, 60);
     height: 28px;
     width: 98px;
 }
@@ -17,7 +17,7 @@ legend{
      
 #first {
     color: lightgoldenrodyellow;
-    background-color: rgb(60, 60, 60)
+    background-color: rgb(60, 60, 60);
 }
     
 #second{
@@ -43,24 +43,29 @@ legend{
 
 /* desktop/laptop size */
 @media screen and (min-width: 800px){    
-   
+    #left, #right{
+        margin-top: 2%;
+        margin-right: 2%;
+        display: block;
+    }
+    
+    .column1{
+        float: right;
+        margin-top: -294px;
+        padding-left: 1%;
+    }
+    
+    .column2{
+        float: right;
+        margin-top: -357px;
+    }
     
     form{
         display: flex;
+        width: 100%;
     }
     
     #first, #second{
         flex-grow: 1;
     }
- /* 
-    #first {
-        width: 30%;
-    }
-  
-    #second{
-  
-    }
-*/
 }
-
-/*   */
