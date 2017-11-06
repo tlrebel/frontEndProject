@@ -15,9 +15,17 @@
 @media screen and (min-width: 800px){    
     button{
         margin-top: 1%;
-        margin-right: 3%;
         float: right;
-      
+    }
+    
+    #print{
+       margin-right: 15%;
+    }
+    
+    #save{
+        
+        margin-left: 15%;
+        margin-right: 4%;
     }
     
     h1{
@@ -32,12 +40,21 @@
     input{
         font-size: 12px;
     }
+    .title{
+        float: right;
+        margin-right: 52%;
+    }
+    
+    textarea{
+        float: right;
+        margin-right: 22%;
+    }
     
     #columns{
         column-count: 2;
         -webkit-column-count: 2; /* Chrome, Safari, Opera */
         -moz-column-count: 2; /* Firefox */
-        margin-left: 2%;
+        margin-left: 5%;
         margin-top: 3%;
     }
 }

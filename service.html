@@ -8,14 +8,10 @@
         <link rel="icon" type="image/png" href="ag.ico">
         <link rel="stylesheet" href="necolasNormalize.css">
         <link rel="stylesheet" href="service.css"> 
-        <script type="text/javascript" src="print.js"></script>
+        <script type="text/javascript" src="stuff.js"></script>
         <title>Service Order</title>
     </head>
     <body>
-        <!-- Making print option for the user -->
-        <button onclick="myFunction()">Print this page</button>
-        <button type="submit">Submit form</button>
-         
         <!-- Creating service order page for clients and employees to keep track of. -->
         <div id="columns">
         <h1>Grooming Service Form</h1>
@@ -34,5 +30,8 @@
         <h3 class="title">Groomer's Note:</h3>
         <textarea name="groomerNote" rows="12" cols="32"></textarea>
         </div>
+        
+        <button onclick="print()" id="print">Print</button>
+        <button onclick ="save()" id="save" type="submit">Save</button>
     </body>
 </html>
