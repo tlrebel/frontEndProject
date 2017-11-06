@@ -14,18 +14,17 @@
 /* desktop/laptop size */
 @media screen and (min-width: 800px){    
     button{
-        margin-top: 1%;
         float: right;
+        margin-top: -3%;
     }
     
     #print{
-       margin-right: 15%;
+        margin-right: 15%;
     }
     
     #save{
-        
-        margin-left: 15%;
-        margin-right: 4%;
+        margin-left: 1%;
+        margin-right: 30%;
     }
     
     h1{
