@@ -12,23 +12,24 @@
 }
 
 /* desktop/laptop size */
-@media screen and (min-width: 800px){    
-    button{
+@media screen and (min-width: 800px){        button{
         float: right;
-        margin-top: -3.5%;
+        
     }
     
     #print{
-        margin-right: 15%;
+        margin-right: 30%;
     }
     
     #save{
         margin-left: 1%;
-        margin-right: 30%;
+        margin-right: 10%;
     }
     
     h1{
-        margin-top: -10px;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-bottom: 3%;
     } 
     
     h3{
@@ -39,21 +40,21 @@
     input{
         font-size: 12px;
     }
-    .title{
-        float: right;
-        margin-right: 52%;
-    }
+    
     
     textarea{
         float: right;
         margin-right: 22%;
     }
     
-    #columns{
-        column-count: 2;
-        -webkit-column-count: 2; /* Chrome, Safari, Opera */
-        -moz-column-count: 2; /* Firefox */
-        margin-left: 5%;
-        margin-top: 3%;
+    #columnLeft{
+        float: left;
+        margin-left: 2%;
+    }
+    
+    #columnRight{
+        float: right;
+        margin-right: 20%;
+        margin-top: -3%;
     }
 }
