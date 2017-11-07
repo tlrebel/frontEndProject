@@ -19,7 +19,9 @@ button {
 }
 #signIn{
     color: black;
-    float: right;
+    float: left;
+    margin-left: 5%;
+    margin-top: -75px;
 }
 #login{
      background-color: #F4FA58;

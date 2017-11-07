@@ -131,8 +131,9 @@ footer{
     
     h1{
         color: darkgray;
-        margin-left: 1%;
+        margin-left: 4%;
         font-size: 42px;
+        
     }
     
     /* to position the drop down menu content for smaller screens */
