@@ -202,7 +202,7 @@ footer{
     /* Creating the space to display selected href links */
     #display{
         margin-left: 250px;
-        margin-right: 20px;
+        margin-right: 15px;
         overflow: hidden;
         border: 9px solid #F4FA58;
         height: 430px;

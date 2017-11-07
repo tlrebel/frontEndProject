@@ -16,12 +16,14 @@ legend{
 
 #parent{
     background-color: rgb(60, 60, 60);
-    height: 28px;
+    height: 25px;
     width: 98px;
 }
 
 #pet{
     background-color: goldenrod;
+    width: 98px;
+    height: 25px;
 }
      
 #first {
@@ -51,30 +53,43 @@ legend{
 }
 
 /* desktop/laptop size */
-@media screen and (min-width: 800px){    
+@media screen and (min-width: 800px){       h2, p{
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+   
+
     #left, #right{
-        margin-top: 2%;
-        margin-right: 2%;
-        display: block;
-    }
-    
-    .column1{
-        float: right;
-        margin-top: -294px;
-        padding-left: 1%;
-    }
-    
-    .column2{
-        float: right;
-        margin-top: -357px;
-    }
-    
-    form{
         display: flex;
-        width: 100%;
+        flex-basis: auto;
+        flex-direction: column;
+        
     }
+        
+/*
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -moz-column-width: 100px;
+        -webkit-column-width: 100px; 
+        column-width: 100px;
+        -webkit-column-gap: 10px;
+        -moz-column-gap: 10px;
+        column-gap: 10px;
+*/
     
-    #first, #second{
-        flex-grow: 1;
+    
+/*
+    input{
+        width: 95%;
+        margin-bottom: 1%;
     }
+*/
+/*
+    
+    #first, #second, {
+        flex-grow: 1;
+        
+    }
+*/
 }
