@@ -16,32 +16,51 @@
             <button onclick= "save()" type="submit">Save</button>
         </div>
         <h2>New Client Form</h2>
-        
+        <div id = "form">
         <!-- Making parental fill out form to gather information from pet owners -->
         <form>
             <fieldset id="first">
                 <legend id="parent"> Parent Info:</legend>
-              <div id="left">
-                Last Name: <br>
-                <input type="text" name="name"><br>
-                First Name: <br>
-                <input type="text" name="name"><br>
-                Street Address: <br>
-                <input type="text" name="address"><br>
-                <input type="text"><br>
-                City:<br>
-                <input type="text" name="address"><br>
-                State:<br>
-                <input type="text" name="address"><br>
-                Zip Code: <br>
-                <input type="text" name="address"><br><br>
-                Email Address: <br>
-                <input type="email" name="email"><br>
-                Phone Number: <br>
-                <input type="tel" name="number"><br>
-                Emergency Number:<br>
-                <input type="tel" name="number"><br> 
-            </div>
+                <div id="left">
+                  <ul class="start">
+                    <li>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="name" class="input">
+                    </li>
+                    <li>
+                        <label for="firstName">First Name:</label> 
+                        <input type="text" name="name">
+                    </li>
+                    <li>
+                        <label for="street">Street Address: </label>
+                        <input type="text" name="address">
+                    </li>
+                    <li>
+                        <label for="city">City:</label>
+                        <input type="text" name="address">
+                    </li>
+                <li>
+                    <label for="state">State:</label>
+                    <input type="text" name="address">
+                </li>
+                <li>
+                    <label for="zip">Zip Code: </label>
+                    <input type="text" name="address">
+                </li>
+                <li>
+                    <label for="emial">Email Address:</label> 
+                    <input type="email" name="email">
+                </li>
+                <li>
+                    <label for="phone">Phone Number: </label>
+                    <input type="tel" name="number">
+                </li>
+                <li>
+                    <label for="emergency">Emergency Number:</label>
+                    <input type="tel" name="number">
+                </li> 
+              </ul>
+              </div>
             </fieldset>
                 
             <!-- Making field to gather information of pet(s) -->
@@ -129,5 +148,6 @@
             </div>
             </fieldset>
         </form>
+        </div>
     </body>
 </html>
