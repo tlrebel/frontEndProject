@@ -66,32 +66,35 @@ legend{
     #form{
         width: 48%;
         max-width: 1200px;
-        margin-left: 2%;    
+        margin-left: 2%; 
     }
     
     #form * {
-  box-sizing: border-box;
+        box-sizing: border-box;
 }
-    #first{
-         max-width: 800px;
-  margin: 0 auto;
+    #first, #second{
+        max-width: 800px;
+        margin: 0 auto;
+        
     }
     
-    #first, .start li{
+    #first, #second, .start li{
         display: flex;
         flex-wrap: wrap;
         
     }
     
-    #first li  label, #first li p{
-        flex: 1 0 120px;
+    #first li label, #first li p, #second li label, #second li p{
+        flex: 1 0 150px;
         max-width: 220px;
     }
     
-    #first li label + *, .start{
+    #first li label *, #second li label *, .start{
         flex: 1 0 220px;
     }
-/*
+    
+}
+    /*
     #form{
         display: flex;
     }
@@ -110,7 +113,7 @@ legend{
     }
 */
 
-}
+
         
 /*
         -webkit-column-count: 2;

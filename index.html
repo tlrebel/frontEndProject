@@ -8,6 +8,7 @@
         <link rel="icon" type="image/png" href="ag.ico">
         <link rel="stylesheet" href="necolasNormalize.css">
         <link rel="stylesheet" href="indexStyle.css"> 
+        <link rel="stylesheet" href="log.css">
         <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
         <script type="text/javascript" src="stuff.js"></script>
         <title>Always Grooming</title>
@@ -15,6 +16,32 @@
     <body>
         <h1>ALWAYS GROOMING</h1>
         
+        <!-- Log in/ Log out -->
+        <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+
+    <div class="box">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" id="login">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="box" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
         <!-- to display selected links in here for bigger screens -->
         <div id="display"> </div>
         

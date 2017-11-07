@@ -6,3 +6,22 @@ h2{
 #column{
     margin-left: 3%;
 }
+
+/*  mediaQuery for different screen sizes */
+
+/* tablet screen size  */
+@media screen and (max-width: 800px){
+    body{
+        display:block;
+        margin: 3%;
+        padding:3%;
+    }
+    
+}
+
+/* desktop/laptop size */
+@media screen and (min-width: 800px){
+    body{
+        justify-content: center;
+    }
+}

@@ -67,84 +67,106 @@
             <fieldset id="second">
                 <legend id="pet">Pet Info:</legend>
             <div id="right">
-                Name: <br>
-                <input type="text" name="petName"><br>
-                
-                <!-- Drop down menu of dog breeds -->
-                Breed: <br>
-                    <select>
-                        <option value="AiredaleTerrier">Airedale Terrier</option>
-                        <option value="Akita">Akita</option>
-                        <option value="AustralianShepherd">Australian Shepherd</option>
-                        <option value="BassetHound">Basset Hound</option>
-                        <option value="Beagle">Beagle</option>
-                        <option value="BichonFrise">Bichon Frise</option>
-                        <option value="BorderCollie">Border Collie</option>
-                        <option value="BostonTerrier">Boston Terrier</option>
-                        <option value="Boxer">Boxer</option>
-                        <option value="BrittanySpanial">Brittany Spanial</option>
-                        <option value="BullDog">Bull dog</option>
-                        <option value="CairnTerrier">Cairn Terrier</option>
-                        <option value="Chihuahua">Chihuahua</option>
-                        <option value="ChineseSharpei">Chinese Sharpei</option>
-                        <option value="ChowChow">Chow Chow</option>
-                        <option value="Cockapoo">Cock-a-poo</option>
-                        <option value="CockerSpaniel">Cocker Spaniel</option>
-                        <option value="Corgi">Corgi</option>
-                        <option value="Dachshund">Dachshund</option>
-                        <option value="Dalmation">Dalmation</option>
-                        <option value="DobermanPinscher">Doberman Pinscher</option>
-                        <option value="EnglishSpringerSpaniel">English Springer Spaniel</option>
-                        <option value="EnglishSetter">English Setter</option>
-                        <option value="GermanSheperd">German Sheperd</option>
-                        <option value="Goldendoodle">Goldendoodle</option>
-                        <option value="GoldenRetriever">Golden Retriever</option>
-                        <option value="GreatDane">Great Dane</option>
-                        <option value="GreatPyrunees">Great Pyrunees</option>
-                        <option value="Havanese">Havanese</option>
-                        <option value="IrishSetter">Irish Setter</option>
-                        <option value="ItalianGreyhound">Italian Greyhound</option>
-                        <option value="JapaneseChin">Japanese Chin</option>
-                        <option value="Labradoodle">Labradoodle</option>
-                        <option value="LabradorRetriever">Labrador Retriever</option>
-                        <option value="LhasaApso">Lhasa Apso</option>
-                        <option value="Maltese">Maltese</option>
-                        <option value="Maltipoo">Maltipoo</option>
-                        <option value="Mastiff">Mastiff</option>
-                        <option value="MiniPin">Minature Pinscher</option>
-                        <option value="MountainDog">Mountain Dog</option>
-                        <option value="Newfoundland">Newfoundland</option>
-                        <option value="OldEnglishSheepdog">Old English Sheepdog</option>
-                        <option value="Papillon">Papillon</option>
-                        <option value="Pekingese">Pekingese</option>
-                        <option value="Peekapoo">Peek-a-poo</option>
-                        <option value="Pomapoo">Pomapoo</option>
-                        <option value="Pomeranian">Pomeranian</option>
-                        <option value="Poodle">Poodle</option>
-                        <option value="Pug">Pug</option>
-                        <option value="Schnauzer">Schnauzer</option>                   
-                        <option value="Sheltie">Sheltie</option>
-                        <option value="ShihTzu">Shih Tzu</option>
-                        <option value="Yorkie">Yorkie</option>
-                        <option value="Mixed">Mixed</option>
-                    </select><br>
-                Other, please specify: <br><input type="text" name="other"><br>
-                Age: <br>
-                <input type="text" name="age"> <br><br>
-                Gender: <br>
-                <input class = "check" type="checkbox" name="gender" value="Female"> Female<br>
-                <input class = "check" type="checkbox" name="gender" value="Male"> Male<br>
-                <input class = "check" type="checkbox" name="gender" value="Fixed"> Neutered/Spayed<br><br>
-                Weight: <br>
-                <input type="text" name="weight"><br>
-                Color/Marking:<br>
-                <input type="text"name="petDescript"><br>
-                Clinic/Vet Name:<br>
-                <input type="text" name="vetInfo"><br>
-                Phone Number:<br>
-                <input type="tel" name="vetNumber"><br>
-                Additional Notes:<br>
-                <textarea name="extraNote" rows="7" cols="23"></textarea>
+                <ul class="start">
+                    <li>
+                        Name: 
+                        <input type="text" name="petName">
+                    </li>
+                    <li>
+                        <!-- Drop down menu of dog breeds -->
+                        Breed:
+                        <select>
+                            <option value="AiredaleTerrier">Airedale Terrier</option>
+                            <option value="Akita">Akita</option>
+                            <option value="AustralianShepherd">Australian Shepherd</option>
+                            <option value="BassetHound">Basset Hound</option>
+                            <option value="Beagle">Beagle</option>
+                            <option value="BichonFrise">Bichon Frise</option>
+                            <option value="BorderCollie">Border Collie</option>
+                            <option value="BostonTerrier">Boston Terrier</option>
+                            <option value="Boxer">Boxer</option>
+                            <option value="BrittanySpanial">Brittany Spanial</option>
+                            <option value="BullDog">Bull dog</option>
+                            <option value="CairnTerrier">Cairn Terrier</option>
+                            <option value="Chihuahua">Chihuahua</option>
+                            <option value="ChineseSharpei">Chinese Sharpei</option>
+                            <option value="ChowChow">Chow Chow</option>
+                            <option value="Cockapoo">Cock-a-poo</option>
+                            <option value="CockerSpaniel">Cocker   Spaniel</option>
+                            <option value="Corgi">Corgi</option>
+                            <option value="Dachshund">Dachshund</option>
+                            <option value="Dalmation">Dalmation</option>
+                            <option value="DobermanPinscher">Doberman  Pinscher</option>
+                            <option value="EnglishSpringerSpaniel">English Springer Spaniel</option>
+                            <option value="EnglishSetter">English Setter</option>
+                            <option value="GermanSheperd">German Sheperd</option>
+                            <option value="Goldendoodle">Goldendoodle</option>
+                            <option value="GoldenRetriever">Golden Retriever</option>
+                            <option value="GreatDane">Great Dane</option>
+                            <option value="GreatPyrunees">Great Pyrunees</option>
+                            <option value="Havanese">Havanese</option>
+                            <option value="IrishSetter">Irish Setter</option>
+                            <option value="ItalianGreyhound">Italian Greyhound</option>
+                            <option value="JapaneseChin">Japanese Chin</option>
+                            <option value="Labradoodle">Labradoodle</option>
+                            <option value="LabradorRetriever">Labrador Retriever</option>
+                            <option value="LhasaApso">Lhasa Apso</option>
+                            <option value="Maltese">Maltese</option>
+                            <option value="Maltipoo">Maltipoo</option>
+                            <option value="Mastiff">Mastiff</option>
+                            <option value="MiniPin">Minature Pinscher</option>
+                            <option value="MountainDog">Mountain Dog</option>
+                            <option value="Newfoundland">Newfoundland</option>
+                            <option value="OldEnglishSheepdog">Old English Sheepdog</option>
+                            <option value="Papillon">Papillon</option>
+                            <option value="Pekingese">Pekingese</option>
+                            <option value="Peekapoo">Peek-a-poo</option>
+                            <option value="Pomapoo">Pomapoo</option>
+                            <option value="Pomeranian">Pomeranian</option>
+                            <option value="Poodle">Poodle</option>
+                            <option value="Pug">Pug</option>
+                            <option value="Schnauzer">Schnauzer</option> 
+                            <option value="Sheltie">Sheltie</option>
+                            <option value="ShihTzu">Shih Tzu</option>
+                            <option value="Yorkie">Yorkie</option>
+                            <option value="Mixed">Mixed</option>
+                        </select>
+                    </li>
+                    <li>
+                    Other, please specify: 
+                        <input type="text" name="other">
+                    </li>
+                    <li>
+                        Age: 
+                        <input type="text" name="age">
+                    </li>
+                    <li>
+                        Gender: <br>
+                        <input class = "check" type="checkbox" name="gender" value="Female"> Female<br>
+                        <input class = "check" type="checkbox" name="gender" value="Male"> Male<br>
+                        <input class = "check" type="checkbox" name="gender" value="Fixed"> Neutered/Spayed
+                    </li>
+                    <li>
+                        Weight:
+                        <input type="text" name="weight">
+                    </li>
+                    <li>
+                        Color/Marking:<br>
+                        <input type="text"name="petDescript"><br>
+                    </li>
+                    <li>
+                        Clinic/Vet Name:<br>
+                        <input type="text" name="vetInfo"><br>
+                    </li>
+                    <li>
+                        Phone Number:<br>
+                        <input type="tel" name="vetNumber"><br>
+                    </li>
+                    <li>
+                        Additional Notes:<br>
+                        <textarea name="extraNote" rows="4" cols="23"></textarea>
+                    </li>
+                </ul>
             </div>
             </fieldset>
         </form>

@@ -12,7 +12,8 @@
 }
 
 /* desktop/laptop size */
-@media screen and (min-width: 800px){        button{
+@media screen and (min-width: 800px){
+    button{
         float: right;
         z-index: 1;
         margin-top: 2%;
