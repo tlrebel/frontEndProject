@@ -97,6 +97,7 @@ footer{
     
     body{ 
         background: rgb(60, 60, 60);
+        height: auto;
     }
     
     h1{
@@ -107,7 +108,7 @@ footer{
     }
     
     iframe{
-        overflow: auto;
+        overflow: scroll;
     }
     
     /* To hide the buttons created for desktop and iframe when resizing from desktop to smaller screens */
@@ -127,6 +128,7 @@ footer{
        background-color: #404040;
        padding-left: 0%;
        display: 100%;
+       
     }
     
     h1{
