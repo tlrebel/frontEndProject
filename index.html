@@ -8,78 +8,32 @@
         <link rel="icon" type="image/png" href="ag.ico">
         <link rel="stylesheet" href="necolasNormalize.css">
         <link rel="stylesheet" href="indexStyle.css"> 
-        <link rel="stylesheet" href="log.css">
         <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
-        <script type="text/javascript" src="stuff.js"></script>
+        <script type="text/javascript" src="magic.js"></script>
         <title>Always Grooming</title>
     </head>
     <body>
         <h1>ALWAYS GROOMING</h1>
         
-        <!-- Log in/ Log out -->
-        <!-- Button to open the modal login form -->
-<button id="signIn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php"><!--how to use pop up window to say not implemented? -->
-
-    <div class="box">
-      <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit" id="login">Login</button>
-      <input type="checkbox" checked="checked"> Remember me
-    </div>
-
-    <div class="box">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
         <!-- to display selected links in here for bigger screens -->
         <div id="display"> </div>
         
         <!-- buttons for desktop -->
         <div id="buttons">
-        <a href = "#" class="first" onclick="javascript:calender('display', '<iframe src = \'https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York\' ></iframe>')">Schedule</a>  
-            
-        <!-- drop down menu button for desktop -->
-        <div>
-            <a onclick= "javascript:big()" class="second">Assignments</a>
-            <div id="bigDropDown" class="dropdownContent">
-                <a href="#" onclick="javascript:morning('display', '<iframe src = \'morningShifts.html\' ></iframe>')">Morning Shift</a>
-                <a href="#" onclick="javascript:evening('display', '<iframe src = \'eveningShifts.html\' ></iframe>')">Evening Shift</a>
-            </div>
-        </div>
-      
-        <a href = "#" class="third" onclick="javascript:orderList('display', '<iframe src=\'service.html\'></iframe>')">Service</a>
-            
-        <a href = "#" class="fourth" onclick="javascript:info('display', '<iframe src=\'parentInfo.html\'></iframe>')">Parents</a>
-            
-        <a href = "#" class="fifth" onclick="javascript:searchButton()">Search</a> 
+            <a href = "#" class="first" onclick="javascript:calender('display', '<iframe src = \'https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York\' ></iframe>')">Schedule</a>  
+            <a href = "#" class="second" onclick="javascript:orderList('display', '<iframe src=\'service.html\'></iframe>')">Service</a>
+            <a href="#" onclick= "javascript:notReady()" class="third">Assignments</a>
+            <a href = "#" class="fourth" onclick="javascript:notReady()">Parents</a>
+            <a href = "#" class="fifth" onclick="javascript:notReady()">Search</a> 
         </div>
         
         <!-- buttons for smaller screens -->
         <div id="tinyButtons">
-        <a href = "https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York" class="first">Schedule</a>
-            
-        <!-- drop down menu button for smaller screens -->
-        <div>
-            <a onclick= "javascript:small()" class="second">Assignments</a>
-            <div id="smallDropDown" class="dropdownContent">
-                <a href="morningShifts.html" onclick="javascript:morning()">Morning Shifts</a>
-                <a href="eveningShifts.html" onclick="javascript:evening()">Evening Shifts</a>
-            </div>
-        </div> 
-        <a href = "service.html" class="third" onclick="javascript:orderList">Service</a>
-        <a href = "parentInfo.html" class="fourth" onclick="javascript:info">Parents</a>
-        <a href = "#" class="fifth" onclick="javascript:searchButton()">Search</a>
+            <a href = "https://calendar.google.com/calendar/embed?src=o9qb4u58aa0vdfsba6hbmu50co%40group.calendar.google.com&ctz=America/New_York" class="first">Schedule</a>
+            <a href = "service.html" class="second" onclick="javascript:orderList">Service</a>
+            <a href="#" onclick= "javascript:notReady()" class="third">Assignments</a>
+            <a href = "#" class="fourth" onclick="javascript:notReady()">Parents</a>
+            <a href = "#" class="fifth" onclick="javascript:notReady()">Search</a>
         </div>
         <footer>
             <p>&copy; TLRebel 2017</p>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +8,14 @@
         <link rel="icon" type="image/png" href="ag.ico">
         <link rel="stylesheet" href="necolasNormalize.css">
         <link rel="stylesheet" href="service.css"> 
-        <script type="text/javascript" src="stuff.js"></script>
+        <script type="text/javascript" src="magic.js"></script>
         <title>Service Order</title>
     </head>
     <body>
         <!-- Creating service order page for clients and employees to keep track of. -->
         <h1>Grooming Service Form</h1>
+        
+        <!-- Putting this into left side.-->
         <div id="columnLeft">
             Pet's Name:
             <input type="text" name="petName"><br>
@@ -28,11 +30,15 @@
             <input type="checkbox" name="nailPolish"> $5.00 Nail Polish <br>
             <input type="checkbox" name="shampooType"> $5.00 Shampoo Use: <input type="text" name="specifiyShampoo">
         </div>
+        
+        <!-- Putting this into right side. -->
         <div id= "columnRight">
             <h3>Groomer's Note:</h3>
             <textarea name="groomerNote" rows="10" cols="32"></textarea>
         </div>
+        
+        <!-- Creating print and save button -->
         <button onclick="print()" id="print">Print</button>
-        <button onclick ="save()" id="save" type="submit">Save</button>
+        <button onclick ="notReady()" id="save" type="submit">Save</button>
     </body>
 </html>
