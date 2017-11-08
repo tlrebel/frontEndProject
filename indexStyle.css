@@ -106,6 +106,10 @@ footer{
         
     }
     
+    iframe{
+        overflow: auto;
+    }
+    
     /* To hide the buttons created for desktop and iframe when resizing from desktop to smaller screens */
     #buttons, iframe{
         display: none;
