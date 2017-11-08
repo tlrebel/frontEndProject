@@ -108,7 +108,7 @@ footer{
     }
     
     iframe{
-        overflow: scroll;
+        -webkit-overflow-scrolling: touch; overflow:auto;
     }
     
     /* To hide the buttons created for desktop and iframe when resizing from desktop to smaller screens */
