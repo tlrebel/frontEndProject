@@ -164,7 +164,6 @@ footer{
     iframe{
         height: 430px;
          width: 100%; 
-         -webkit-overflow: touch; 
-        overflow:scroll;
+        
     }
 }
