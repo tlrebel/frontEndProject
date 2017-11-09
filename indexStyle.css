@@ -89,7 +89,7 @@ footer{
 /*  mediaQuery for different screen sizes 
     tablet screen size in vertical view 
 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     #tinyButtons{
         margin-left: 2%;
         margin-right: 0%;
@@ -119,7 +119,7 @@ footer{
 }
 
 /* desktop/laptop size */
-@media screen and (min-width: 800px){
+@media screen and (min-width: 700px){
    body{
        background-color: #404040;
        padding-left: 0%;
@@ -156,15 +156,14 @@ footer{
         margin-right: 15px;
         border: 9px solid #F4FA58;
         height: 430px;
-        background-color: pink;
-        -webkit-overflow-scrolling: touch;
+        background-color: lightgray;
+      
        
     }
     
     /* Styling the displayed link to fit into the content area */
     iframe{
-        width: 100%; 
-        
+      
         
     }
 }
