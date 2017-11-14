@@ -80,10 +80,8 @@ h1{
 footer{
     color: whitesmoke;
     position: relative;
-    padding-left: 1%;
-    padding-top: 0%;
-    height: 30px;
     text-align: center;
+    bottom: -20px;
 }
 
 /*  mediaQuery for different screen sizes 
@@ -98,6 +96,7 @@ footer{
     body{ 
         background: rgb(60, 60, 60);
         height: auto;
+        display:flex;
     }
     
     h1{
@@ -123,8 +122,6 @@ footer{
    body{
        background-color: #404040;
        padding-left: 0%;
-       display: 100%;
-       
     }
     
     h1{
@@ -156,9 +153,8 @@ footer{
         margin-right: 15px;
         border: 9px solid #F4FA58;
         height: 430px;
-        background-color: lightgray;
-      
-       
+        background-color: lightgray; 
+        overflow: scroll;
     }
     
     /* Styling the displayed link to fit into the content area */

@@ -32,21 +32,24 @@
     textarea{
         float: right;
         margin-right: 22%;
+        clear: right;
     }
     
     /* To position the columns */
     #columnLeft{
         float: left;
         margin-left: 2%;
+        clear: left;
     }
     
     #columnRight{
         float: right;
         margin-right: 5%;
         margin-top: -3%;
+        clear: right;
     }
     
-    /* To position the save and print button*/
+    /* To position the save and print button */
     button{
         
         z-index: 1;

@@ -24,7 +24,3 @@ function notReady() {
     alert("This functionality not yet implemented");
 }
 
-// to make iframe scrollable in safari/ipads
-//if ("ontouchstart" in document.documentElement){
-//$('html').addClass('touch');
-//}
