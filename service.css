@@ -58,13 +58,13 @@
     
     #print{
         position: fixed;
-        bottom: 80px;
-        right: 120px;        
+        bottom: 20px;
+        right: 130px;        
     }
     
     #save{
         position: fixed;
-        bottom: 80px;
-        right: 280px;
+        bottom: 20px;
+        right: 270px;
     }
 }
