@@ -96,7 +96,7 @@ footer{
     body{ 
         background: rgb(60, 60, 60);
         height: auto;
-        display:flex;
+        
     }
     
     h1{
@@ -154,7 +154,8 @@ footer{
         border: 9px solid #F4FA58;
         height: 430px;
         background-color: lightgray; 
-        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+        overflow: auto;
     }
     
     /* Styling the displayed link to fit into the content area */
