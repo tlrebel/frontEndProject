@@ -59,12 +59,12 @@
     #print{
         position: fixed;
         bottom: 20px;
-        right: 130px;        
+        right: 170px;        
     }
     
     #save{
         position: fixed;
         bottom: 20px;
-        right: 270px;
+        right: 290px;
     }
 }
