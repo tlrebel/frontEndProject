@@ -1,5 +1,5 @@
 /* I created this file to help load the links selected links
-   to be displayed in desired content area.
+   to be displayed in desired content area, to print the page, and to alert user to buttons not ready.
    created by: Tricia L. Roberts
    Year: 2017
    Code of Louisville Project
@@ -21,6 +21,6 @@ function printThis() {
 
 // for the buttons that is not implemented
 function notReady() {
-    alert("This functionality not yet implemented");
+    window.alert("This functionality not yet implemented");
 }
 

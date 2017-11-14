@@ -1,5 +1,7 @@
 /* NOTE: The styling of anchor links into buttons was inspired by Chunky 3D Web Buttons which were taken from:  - http://www.premiumpixels.com/freebies/chunky-3d-webbuttons-psd/
---I have made some changes in the coding that I have selected to style my "buttons". */
+--I have made some changes in the coding that I have selected to style my "buttons". 
+This CSS page is created for main html page. Created by Tricia L. Roberts, 2017.
+*/
 
 /* all the anchors to turn into buttons in vertical alignment */
 .first, .second, .third, .fourth, .fifth{
@@ -96,7 +98,6 @@ footer{
     body{ 
         background: rgb(60, 60, 60);
         height: auto;
-        
     }
     
     h1{
