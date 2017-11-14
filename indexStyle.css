@@ -155,13 +155,15 @@ footer{
         border: 9px solid #F4FA58;
         height: 430px;
         background-color: lightgray; 
-        -webkit-overflow-scrolling: touch;
+       
     }
     
     /* Styling the displayed link to fit into the content area */
     iframe{
         height: 100%;
         width: 100%;
-        
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 }
