@@ -156,7 +156,6 @@ footer{
         height: 430px;
         background-color: lightgray; 
         -webkit-overflow-scrolling: touch;
-        overflow: auto;
     }
     
     /* Styling the displayed link to fit into the content area */
